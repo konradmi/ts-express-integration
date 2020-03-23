@@ -1,0 +1,24 @@
+{
+  "name": "ts-express-integration",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start:build": "tsc -w",
+    "start:run": "nodemon build/index.js",
+    "start": "concurrently yarn:start:*"
+  },
+  "repository": "git@github.com:konradmi/ts-express-integration.git",
+  "author": "KonradM <miekus.konrad@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@types/body-parser": "^1.19.0",
+    "@types/cookie-session": "^2.0.39",
+    "@types/express": "^4.17.3",
+    "body-parser": "^1.19.0",
+    "concurrently": "^5.1.0",
+    "cookie-session": "^1.4.0",
+    "express": "^4.17.1",
+    "nodemon": "^2.0.2",
+    "typescript": "^3.8.3"
+  }
+}
